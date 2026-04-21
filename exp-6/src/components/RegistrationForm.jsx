@@ -49,6 +49,11 @@ function RegistrationForm() {
         <form onSubmit={handleSubmit}>
             <input name='name' placeholder='Name' onChange={handleChange} />
             {errors.name && <span></span>}
+            <input name='email' placeholder='Email' onChange={handleChange} />
+            {errors.email && <span></span>}
+            <input name='password' type='password' placeholder='Password' onChange={handleChange} />
+            {errors.password && <span></span>}
+            <button type='submit'>Register</button>
         </form>
       
     </div>
