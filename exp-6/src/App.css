@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.registration-form {
+  background: rgba(255,255,255,0.2);
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  color: white;
+}
+
+input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.error {
+  color: #ffdddd;
+  font-size: 12px;
+}
+
+.success {
+  color: #d4ffda;
+}
+
+.api-data {
+  margin-top: 15px;
+  font-size: 14px;
+}
